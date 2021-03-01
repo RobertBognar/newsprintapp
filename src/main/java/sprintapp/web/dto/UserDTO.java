@@ -20,6 +20,7 @@ public class UserDTO {
 	private String firstName;
 	@Size(min=3, max=50)
 	private String lastName;
+	
 	public Long getId() {
 		return id;
 	}
